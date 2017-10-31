@@ -10,6 +10,13 @@ namespace variables
     {
         static void Main(string[] args)
         {
+            //Opgave 1
+            
+            int number = 25;
+
+            Console.WriteLine("{0} is a magic number", number); //Få denne linje til at outputte "3 is a magic number"
+
+            Console.ReadKey();
         }
     }
 }
